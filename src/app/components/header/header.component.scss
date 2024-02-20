@@ -1,0 +1,41 @@
+input,button{
+    color: blueviolet;
+    border: 1px solid blueviolet;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+    h1{
+        color: blueviolet;
+        font-size: 40px;
+    }
+    .nav_search{
+        display: flex;
+        flex: 1;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5px;
+        input{
+            flex: 1;
+            height: 35px;
+            border-right: 0;
+        }
+        button{
+            height: 37px;
+            padding: 4px;
+        }
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        li{
+            padding-right: 15px;
+            padding-top: 15px;
+            a{
+                color: blueviolet;
+                text-decoration: none;
+            }
+        }
+    }
+}
