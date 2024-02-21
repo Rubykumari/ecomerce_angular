@@ -11,3 +11,9 @@ h1{
     cursor: pointer;
     text-align: left;
 }
+.login{
+    text-align: center;
+    .errTxt{
+        margin-bottom: 1rem;
+    }
+}

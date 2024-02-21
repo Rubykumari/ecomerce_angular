@@ -29,3 +29,6 @@
 a{
     text-decoration: none;
 }
+.errTxt{
+    color: red;
+}

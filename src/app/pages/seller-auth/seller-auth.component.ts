@@ -11,7 +11,8 @@ export class SellerAuthComponent implements OnInit{
   constructor(
     private seller: SellerService,
     ) { }
-  showLogin = false
+  showLogin = false;
+  authError:string="";
   ngOnInit():void{
    this.seller.reloadSeller()
   //  localStorage.removeItem('seller');
@@ -21,7 +22,14 @@ export class SellerAuthComponent implements OnInit{
     this.seller.sellerSignUp(data);
   }
   logIn(data:login):void{
+  this.authError="";
    this.seller.sellerLogin(data);
+   this.seller.isLoggedInError.subscribe(isError=>{
+     if(isError){
+      this.authError="Invalid email or password"
+     }
+   }
+   )
   }
   openLogin(){
    this.showLogin = true
