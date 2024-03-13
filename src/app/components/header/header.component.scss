@@ -1,13 +1,15 @@
+@import '../../../colors.scss';
+
 input,button{
-    color: blueviolet;
-    border: 1px solid blueviolet;
+    color: $primary-color;
+    border: 1px solid $primary-color;
 }
 .nav{
     display: flex;
     justify-content: space-between;
 
     h1{
-        color: blueviolet;
+        color: $primary-color;
         font-size: 40px;
     }
     .nav_search{
@@ -33,8 +35,9 @@ input,button{
             padding-right: 15px;
             padding-top: 15px;
             a{
-                color: blueviolet;
+                color: $primary_color;
                 text-decoration: none;
+                cursor: pointer;
             }
         }
     }

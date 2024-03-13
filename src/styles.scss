@@ -1,3 +1,5 @@
+@import './colors.scss';
+
 * {
     margin: 0;
     padding: 0;
@@ -17,13 +19,13 @@
     margin-bottom: 20px;
     height: 35px;
     padding-left: 10px;
-    border: 1px solid blueviolet;
-    color: blueviolet;
+    border: 1px solid $primary_color;
+    color: $primary_color;
 }
 .form_btn{
     height: 35px;
-    color: blueviolet;
-    border: 1px solid blueviolet;
+    color: $primary_color;
+    border: 1px solid $primary_color;
     cursor: pointer;
 }
 a{

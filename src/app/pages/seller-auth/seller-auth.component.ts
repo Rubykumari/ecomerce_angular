@@ -15,7 +15,6 @@ export class SellerAuthComponent implements OnInit{
   authError:string="";
   ngOnInit():void{
    this.seller.reloadSeller()
-  //  localStorage.removeItem('seller');
   }
 
   signUp(data: SignUp): void {

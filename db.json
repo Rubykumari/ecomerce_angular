@@ -247,16 +247,21 @@
       "email": "rahulkumar@meesho.com"
     },
     {
-      "id": "490c",
-      "name": "Manideep",
-      "password": "apptmyz123",
-      "email": "manideep@vsimplifye.com"
-    },
-    {
       "id": "d539",
       "name": "Manideep",
       "password": "apptmyz123",
       "email": "manideep@vsimplifye.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "12f2",
+      "name": "Bare Anatomy shampoo",
+      "price": 399,
+      "cateory": "Cosmetics",
+      "color": "White",
+      "image": "https://www.instagram.com/bareanatomynepal/p/C0YQXCGud8z/?hl=zh-cn&ref=159",
+      "discription": "Shampoo for hair fall"
     }
   ]
 }
